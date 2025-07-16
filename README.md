@@ -88,3 +88,18 @@ Ensure secure and compliant offboarding of employees, contractors, and third-par
 - **Vault / Bitwarden** – Rotate shared credentials
 - **SIEM / SOAR tools** – Log, alert, and automate deprovisioning workflows
 
+---
+
+## 🚀 Get Started
+
+To replicate this in your own org or team:
+
+1. Fork this repo
+2. Enable issues (if disabled)
+3. Use the button below to start tracking offboarding for your team
+
+[📥 **Click here to create a new Offboarding Issue**](https://github.com/YOUR_USERNAME/security-offboarding-access-revocation-checklist/issues/new?template=offboarding.md)
+
+> This will launch the interactive checklist using the built-in issue template.
+
+---
