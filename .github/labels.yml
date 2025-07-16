@@ -1,0 +1,39 @@
+- name: offboarding
+  color: F9D0C4
+  description: Related to user or vendor deprovisioning
+
+- name: security
+  color: D93F0B
+  description: Security-sensitive tasks
+
+- name: employee
+  color: 0E8A16
+  description: Offboarding employee
+
+- name: contractor
+  color: 5319E7
+  description: Offboarding contractor
+
+- name: vendor
+  color: 0366D6
+  description: Offboarding third-party vendor
+
+- name: in-progress
+  color: FBCA04
+  description: Task is currently being worked on
+
+- name: complete
+  color: C2E0C6
+  description: Task has been completed
+
+- name: blocked
+  color: E99695
+  description: Task is blocked or pending input
+
+- name: urgent
+  color: B60205
+  description: Needs immediate attention
+
+- name: low-priority
+  color: C5DEF5
+  description: Low urgency
