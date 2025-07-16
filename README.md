@@ -78,10 +78,6 @@ Ensure secure and compliant offboarding of employees, contractors, and third-par
 
 ---
 
-**💡 Tip:** Use GitHub Projects or Issues to link this checklist directly to each user/vendor offboarding task. Each `[ ]` checkbox will render interactively on GitHub.
-
----
-
 ## ✨ Automation Tools (Optional)
 - **Okta Workflows / Microsoft Entra** – Automate access revocation
 - **Terraform / Ansible** – Automate infrastructure-level cleanup
