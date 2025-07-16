@@ -98,7 +98,8 @@ To replicate this in your own org or team:
 2. Enable issues (if disabled)
 3. Use the button below to start tracking offboarding for your team
 
-[📥 **Click here to create a new Offboarding Issue**](https://github.com/YOUR_USERNAME/security-offboarding-access-revocation-checklist/issues/new?template=offboarding.md)
+[📥 Click here to start a new Offboarding Issue](https://github.com/MillionaireDiogo/security-offboarding-access-revocation-checklist/issues/new?template=offboarding.md&title=Offboarding%20-%20[Enter%20Name])
+
 
 > This will launch the interactive checklist using the built-in issue template.
 
