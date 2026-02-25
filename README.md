@@ -1,4 +1,4 @@
-# 🔐 Security Offboarding Checklist
+# 🔐 Secure Offboarding Checklist
 
 **Purpose:**  
 Ensure secure and compliant offboarding of employees, contractors, and third-party users by revoking all access and recovering assets.
