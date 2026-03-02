@@ -1,0 +1,71 @@
+name: 🔐 Security Offboarding Checklist
+description: Track offboarding and access revocation
+title: "Offboarding - [Enter Name]"
+labels: ["offboarding", "security"]
+assignees:
+  - your-github-username
+
+body:
+  - type: input
+    id: employee_name
+    attributes:
+      label: Employee / Vendor Name
+      placeholder: Enter full name
+    validations:
+      required: true
+
+  - type: input
+    id: exit_date
+    attributes:
+      label: Last Working Day
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: manager
+    attributes:
+      label: Manager / Point of Contact
+      placeholder: Enter manager name
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: access_revocation
+    attributes:
+      label: 🔐 Revoke Digital Access
+      options:
+        - label: Disable user in Identity Provider (Okta / Azure AD / Google Workspace)
+        - label: Remove from SaaS platforms (GitHub, Slack, Jira, Zoom, AWS)
+        - label: Invalidate sessions and refresh tokens
+        - label: Revoke SSH keys, API tokens, VPN credentials
+        - label: Reset shared credentials
+        - label: Remove MFA/2FA methods
+        - label: Remove from MDM (Intune / JAMF)
+
+  - type: checkboxes
+    id: asset_recovery
+    attributes:
+      label: 💻 Recover Assets
+      options:
+        - label: Collect laptops / phones / USBs
+        - label: Recover badges / access cards
+        - label: Wipe and reimage devices
+
+  - type: checkboxes
+    id: ownership_transfer
+    attributes:
+      label: 📂 Transfer Ownership
+      options:
+        - label: Reassign email and documents
+        - label: Transfer project boards / repos
+        - label: Backup user data
+
+  - type: checkboxes
+    id: compliance
+    attributes:
+      label: 📜 Compliance & Logging
+      options:
+        - label: Log all deprovisioning steps
+        - label: Notify HR / Legal
+        - label: Archive records
