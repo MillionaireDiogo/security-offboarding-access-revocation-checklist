@@ -1,0 +1,69 @@
+name: 🏢 Vendor Offboarding Checklist
+description: Track vendor/third-party access revocation
+title: "Vendor Offboarding - [Vendor Name]"
+labels: ["offboarding", "vendor", "security"]
+assignees:
+  - your-github-username
+
+body:
+  - type: input
+    id: vendor_name
+    attributes:
+      label: Vendor Name
+      placeholder: Enter vendor/company name
+    validations:
+      required: true
+
+  - type: input
+    id: end_date
+    attributes:
+      label: Contract End Date
+      placeholder: YYYY-MM-DD
+    validations:
+      required: true
+
+  - type: input
+    id: poc
+    attributes:
+      label: Internal Point of Contact
+      placeholder: Enter POC name
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: identification
+    attributes:
+      label: 🔍 Identification
+      options:
+        - label: Confirm contract end date
+        - label: Identify systems and tools accessed
+        - label: Review integrations / IP whitelisting
+
+  - type: checkboxes
+    id: access_revocation
+    attributes:
+      label: 🔐 Revoke Access
+      options:
+        - label: Disable vendor accounts
+        - label: Remove from communication tools
+        - label: Remove VPN / firewall / IP access
+        - label: Revoke API keys, tokens, certificates
+        - label: Terminate vendor scripts/automation
+
+  - type: checkboxes
+    id: data_assets
+    attributes:
+      label: 📂 Data & Asset Recovery
+      options:
+        - label: Confirm deletion/return of company data
+        - label: Recover issued hardware or accounts
+        - label: Review logs for data exfiltration
+
+  - type: checkboxes
+    id: compliance
+    attributes:
+      label: 📜 Legal & Compliance
+      options:
+        - label: Confirm NDA/data agreements
+        - label: Document offboarding steps
+        - label: Perform final security review

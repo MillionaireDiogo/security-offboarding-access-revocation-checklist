@@ -94,7 +94,9 @@ To replicate this in your own org or team:
 2. Enable issues (if disabled)
 3. Use the button below to start tracking offboarding for your team
 
-[📥 Click here to start a new Offboarding Issue](https://github.com/MillionaireDiogo/security-offboarding-access-revocation-checklist/issues/new?template=offboarding.md&title=Offboarding%20-%20[Enter%20Name])
+[👤 Start Employee Offboarding](https://github.com/MillionaireDiogo/security-offboarding-access-revocation-checklist/issues/new?template=employee-offboarding.yml&title=Employee%20Offboarding%20-%20[Enter%20Name])
+
+[🏢 Start Vendor Offboarding](https://github.com/MillionaireDiogo/security-offboarding-access-revocation-checklist/issues/new?template=vendor-offboarding.yml&title=Vendor%20Offboarding%20-%20[Vendor%20Name])
 
 
 > This will launch the interactive checklist using the built-in issue template.
