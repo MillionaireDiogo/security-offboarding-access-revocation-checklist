@@ -48,7 +48,7 @@ body:
         - label: Remove from SaaS platforms
         - label: Invalidate sessions and tokens
         - label: Revoke SSH keys, API tokens, VPN
-        - label: Reset shared credentials
+        - label: Rotate shared credentials (password vaults, service accounts, etc)
         - label: Remove MFA/2FA methods
         - label: Remove from MDM
 
