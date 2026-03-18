@@ -1,6 +1,6 @@
 name: 👤 Employee Offboarding Checklist
 description: Track employee offboarding and access revocation
-title: "Employee Offboarding - [Enter Name]"
+#title: "Employee Offboarding - [Enter Name]"
 labels: ["offboarding", "employee", "security"]
 assignees:
   - your-github-username

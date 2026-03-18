@@ -1,6 +1,6 @@
 name: 🏢 Vendor Offboarding Checklist
 description: Track vendor/third-party access revocation
-title: "Vendor Offboarding - [Vendor Name]"
+#title: "Vendor Offboarding - [Vendor Name]"
 labels: ["offboarding", "vendor", "security"]
 assignees:
   - your-github-username
