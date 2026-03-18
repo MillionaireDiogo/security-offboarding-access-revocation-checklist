@@ -94,9 +94,9 @@ To replicate this in your own org or team:
 2. Enable issues (if disabled)
 3. Use the button below to start tracking offboarding for your team
 
-[👤 Start Employee Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/blob/e8155307cab042bf66da3947fa2e1fd8392c1820/.github/ISSUE_TEMPLATE/employee-offboarding.yml)
+[👤 Start Employee Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=employee-offboarding.yml)
 
-[🏢 Start Vendor Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/blob/e8155307cab042bf66da3947fa2e1fd8392c1820/.github/ISSUE_TEMPLATE/vendor-offboarding.yml)
+[🏢 Start Vendor Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=vendor-offboarding.yml)
 
 
 > This will launch the interactive checklist using the built-in issue template.
