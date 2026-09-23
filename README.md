@@ -1,10 +1,10 @@
-# 🔐 Security Offboarding & Access Revocation
+# Security Offboarding & Access Revocation
 
 A lightweight, structured approach to securely offboard employees and vendors by ensuring timely access revocation, asset recovery, and audit-ready documentation.
 
 ---
 
-## 🎯 Purpose
+## Purpose
 
 This repository provides **standardized GitHub Issue templates** to track and enforce secure offboarding processes.
 
@@ -17,12 +17,12 @@ It helps reduce risks such as:
 
 ---
 
-## 🚀 Get Started
+## Get Started
 
 Use the links below to initiate an offboarding process:
 
-* 👤 [Start Employee Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=employee-offboarding.yml)
-* 🏢 [Start Vendor Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=vendor-offboarding.yml)
+* [Start Employee Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=employee-offboarding.yml)
+* [Start Vendor Offboarding](https://github.com/MzPrincesa/security-offboarding-access-revocation-checklist/issues/new?template=vendor-offboarding.yml)
 
 Each form will guide you through:
 
@@ -33,7 +33,7 @@ Each form will guide you through:
 
 ---
 
-## ⚙️ How It Works
+## How It Works
 
 1. Select the appropriate offboarding type
 2. Fill out the issue form
@@ -42,7 +42,7 @@ Each form will guide you through:
 
 ---
 
-## 🔐 Security Focus
+## Security Focus
 
 This workflow is designed with security operations in mind:
 
@@ -53,7 +53,7 @@ This workflow is designed with security operations in mind:
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```
 .github/
@@ -64,7 +64,7 @@ This workflow is designed with security operations in mind:
 
 ---
 
-## ✨ Optional Enhancements
+## Optional Enhancements
 
 * Integrate with SIEM/SOAR for alerting
 * Automate access revocation workflows (Jumpcloud, Okta, Microsoft Entra, etc.)
